@@ -1,0 +1,24 @@
+.search-container {
+    margin-bottom: 20px;  /* فاصله از بالا */
+    display: flex;
+    gap: 10px;  /* فاصله بین دکمه‌ها و فیلد جستجو */
+    align-items: center;  /* هم‌تراز کردن دکمه‌ها */
+}
+
+.search-input {
+    flex: 1;  /* باعث می‌شه فیلد جستجو عرض مناسب بگیره */
+}
+
+.btn-search, .btn-clear {
+    white-space: nowrap; /* جلوگیری از شکست متن داخل دکمه‌ها */
+}
+
+.search_box {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-end {
+    margin-right: 20px;
+}
